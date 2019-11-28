@@ -1,0 +1,435 @@
+@media screen and (min-width: 980px) and (max-width: 1200px) {
+     .slide {
+         width: 25%;
+         padding-left: 40px;
+         box-sizing: border-box;
+    }
+     .slide h1 {
+         display: block;
+         width: 515px;
+         font-size: 40px;
+         line-height: 50px;
+    }
+     #btn-1:checked ~ .slides .slide:nth-child(1), #btn-2:checked ~ .slides .slide:nth-child(2), #btn-3:checked ~ .slides .slide:nth-child(3), #btn-4:checked ~ .slides .slide:nth-child(4) {
+         transition: all 0.25s ease 0s;
+    }
+     #btn-1:checked ~ .slides .slide:nth-child(1){
+         transform: translateX(0);
+    }
+     #btn-2:checked ~ .slides .slide:nth-child(2){
+         transform: translateX(-100%);
+    }
+     #btn-3:checked ~ .slides .slide:nth-child(3) {
+         transform: translateX(-200%);
+    }
+     #btn-4:checked ~ .slides .slide:nth-child(4) {
+         transform: translateX(-300%);
+    }
+     .action-inner {
+         flex-wrap: wrap;
+    }
+     .action-product {
+         flex-grow: 1;
+    }
+     .profit {
+         flex-grow: 3;
+         display: flex;
+         margin: 0;
+         align-items: center;
+         justify-content: space-around;
+         background:rgba(46,50,59, 1);
+    }
+     .profit-p, .profit-sp {
+         margin: 0;
+    }
+     .sum {
+         margin: 0;
+         position: relative;
+         right: -13%;
+    }
+     .news-item {
+         flex-wrap: nowrap;
+         transform: scale(0.9);
+    }
+}
+ @media screen and (min-width: 700px) and (max-width: 1070px) {
+     .time {
+         display: none;
+    }
+     h1 {
+         font-size: 28px;
+         margin: 0 0 30px;
+    }
+}
+ @media screen and (min-width: 700px) and (max-width: 780px) {
+     .div-phone {
+         font-size:13px;
+         line-height: 3.5;
+    }
+}
+ @media screen and (max-width: 830px) {
+     .action-product {
+         width: 100%;
+         padding-left: 3%;
+         padding-right: 3%;
+    }
+     .action-sum {
+         width: 100%;
+    }
+     .action-inner {
+         justify-content: center;
+    }
+}
+ @media screen and (min-width: 700px) and (max-width: 815px) {
+     .info-nav-list {
+         font-size:13px;
+    }
+     .info-nav-list li {
+         padding: 10px 5px;
+    }
+}
+ @media screen and (min-width: 980px) and (max-width: 1100px) {
+     .pop-product {
+         width: 45%;
+         transform: scale(0.9);
+    }
+     .pop-product img {
+         transform: scale(0.9);
+    }
+     .pop-product:nth-child(2n) {
+         margin-right: 0;
+    }
+    /*===========BACKET============*/
+     .order-number {
+        /*transform: scale(0.9);
+        */
+    }
+}
+ @media screen and (min-width: 700px) and (max-width: 980px) {
+     .sub-menu {
+         left: 135px;
+    }
+    /*===========BACKET============*/
+     .order-number {
+        /*transform: scale(0.8);
+        */
+         margin: 0;
+    }
+     .order-box3 {
+         margin-right: 25px;
+    }
+     .tf-form {
+         flex-wrap: wrap;
+    }
+     .tf-form label, .form-pay label {
+         min-width: 245px;
+    }
+     .tf-form label::before, .form-pay label::before {
+         bottom: 35px;
+    }
+     .promo {
+         flex-wrap: wrap;
+    }
+    /* ================= Карточка товара ==================*/
+     .item-img {
+         text-align: center;
+    }
+}
+ @media screen and (min-width: 320px) and (max-width: 1100px) {
+     .col-nav {
+         width: 135px;
+    }
+     .col-nav-list a {
+         justify-content: center;
+    }
+     .main {
+         margin-left: 135px;
+    }
+     .nav-name {
+         visibility: hidden;
+         width: 0;
+    }
+     span > .menu-icon {
+         width: 100%;
+         text-align: center;
+    }
+     .menu-icon {
+         padding: 0;
+    }
+     .action-inner {
+         flex-wrap: wrap;
+    }
+     .profit {
+         flex-grow: 3;
+         display: flex;
+         margin: 0;
+         align-items: center;
+         justify-content: space-around;
+         background: rgba(46,50,59, 1);
+    }
+     .profit-p, .profit-sp {
+         margin: 0;
+    }
+     .sum {
+         margin: 0;
+         position: relative;
+         right: -8%;
+    }
+     .news-item {
+         flex-wrap: nowrap;
+         transform: scale(0.9);
+    }
+}
+ @media screen and (min-width: 450px) and (max-width: 700px) {
+     .order-pc > div {
+         flex-basis: 50%;
+    }
+}
+ @media screen and (min-width: 320px) and (max-width: 700px) {
+    /*===========BACKET============*/
+     .order-price, .order-sum {
+         font-size: 18px;
+         margin-bottom: 0px;
+    }
+     .order-number {
+        transform: scale(0.7);
+        margin: 0;
+    }
+     .order-name {
+         font-size: 13px;
+         line-height: 1x;
+    }
+     .promo {
+         transform: scale(0.9);
+    }
+    /* ================Карточка товара===================*/
+     .item-img, .item-info {
+         width: 100%;
+    }
+     .item-info {
+         margin-left: 0;
+    }
+     .item-img img {
+         max-width: 100%;
+         height: auto;
+    }
+}
+ @media screen and (max-width: 700px){
+     .sub-menu {
+         left: 70px;
+    }
+     .info-nav-list {
+         width: 280px;
+         display: none;
+         position: absolute;
+         background-color: #1F2025;
+    }
+     .info-nav-list-show {
+         display: block;
+         z-index: 10;
+    }
+     .info-nav-list li{
+         display: list-item;
+    }
+     .h-nav{
+         position: relative;
+         width: 280px;
+    }
+     .call {
+         display:none;
+    }
+     .call-inner {
+         display: block;
+    }
+     .hn-open::after {
+         content: "Меню";
+         position: absolute;
+         right: -55px;
+         top: -5px;
+         color: #fff;
+         padding-left: 17px;
+    }
+     .hn-open {
+         position: absolute;
+         left: 15px;
+         width: 15px;
+         height: 2px;
+         margin-top: 3px;
+         background-color: #fff;
+         border-top: 2px solid #fff;
+         border-bottom: 2px solid #fff;
+         padding: 3px 0;
+         background-clip: content-box;
+         cursor: pointer;
+    }
+     .hn-open:checked ~ .info-nav-list{
+         display: block;
+    }
+     .hn-close {
+         position: absolute;
+         cursor: pointer;
+         width: 20px;
+         height: 20px;
+         background: url(../img/ico-close.svg) no-repeat 0 0;
+         right: 7px;
+         top: 12px;
+         z-index: 2;
+         display: none;
+    }
+     .hn-close-show {
+         display: block;
+    }
+     .profit-sp, .profit-p, .sum {
+         transform: scale(0.87);
+    }
+     .nav-name {
+         visibility: hidden;
+         width: 0;
+    }
+     .col-nav {
+         width: 70px;
+         padding-top: 25px;
+    }
+     .col-nav-list a {
+         justify-content: center;
+    }
+     .menu-icon {
+         padding: 0;
+    }
+     .sub-menu-icon {
+         background: url(../img/arr.svg) no-repeat 41px 8px;
+    }
+     .main {
+         margin-left: 70px;
+    }
+     .div-phone {
+         padding-left: 15px;
+         height: 45px;
+         font-size: 13px;
+    }
+     .time, .call {
+         display: none;
+    }
+     .slide h1 {
+         font-family: 'ProximaNovaBold', 'Arial', sans-serif;
+         font-size: 28px;
+         line-height: 2;
+         font-weight: bold;
+    }
+     .pref, .next {
+         transform: scale(0.8);
+    }
+     .slide {
+         padding-left: 20px;
+    }
+     .slider-prise {
+         margin-bottom: 20px;
+         font-size: 20px;
+         line-height: 1.2;
+    }
+     .pop h2, .action h2, .news h2 {
+         font-size: 18px;
+         line-height: 1.2;
+    }
+     .slider-controls {
+         transform: scale(0.8);
+    }
+     .header {
+         min-height: 131px;
+    }
+     .top-basket {
+         min-width: 100%;
+         background: url(../img/sprite.png) no-repeat 85% -32px, #F34D4D;
+    }
+     .top-basket span {
+         display: block;
+         width: 50%;
+         text-align: center;
+         border-right: 2px solid rgba(255, 255, 255, 0.5);
+         box-sizing: border-box;
+    }
+     .pop-wrapper {
+         width: 100%;
+    }
+     .pop-product {
+         width: 100%;
+         transform: scale(0.87);
+    }
+     .pop-product img {
+         transform: scale(0.87);
+    }
+     .profit-p, .profit-sp, .sum{
+         transform: scale(0.7);
+    }
+    /*===========BACKET============*/
+     .tf-form, .form-pay {
+         flex-wrap: wrap;
+    }
+     .tf-form label, .form-pay label {
+         width:97%;
+         margin-right: 0;
+         margin-bottom: 30px;
+    }
+     .order {
+         padding: 0 10px;
+    }
+     .order-pc {
+         flex-wrap: wrap;
+    }
+     .order-pc > div {
+         flex-basis: 50%;
+    }
+     .box-1 img {
+         max-width: 100%;
+    }
+     .promo {
+         flex-wrap: wrap;
+         justify-content: center;
+    }
+    /* =================формы ==================*/
+     input[type="text"], input[type="email"], input[type="password"], input[type="search"], input[type="tel"], input[type="url"], textarea {
+         max-width: 85%;
+    }
+     .chbox {
+         padding-left: 10px;
+    }
+    /* =================popup ==================*/
+     .popup-callback-block{
+         width: 80%;
+    }
+     .empty {
+         height: 0px;
+    }
+    /* ================footer===================*/
+     .footer-nav, .feedback {
+         flex-wrap: wrap;
+         justify-content: flex-start;
+    }
+     .nav-left li, .nav-right li {
+         margin: 10px;
+         font-size: 13px;
+    }
+     .footer {
+         padding: 0px 5%;
+    }
+    /* ================Карточка товара===================*/
+     .item {
+         flex-wrap: wrap;
+         justify-content: center;
+    }
+     .item-info h1 {
+         font-size: 24px;
+    }
+     .item img {
+         margin:0;
+    }
+     .tabs > label {
+         font-size: 15px;
+    }
+}
+ @media all and (orientation: landscape) {
+    /* Target device in landscape mode */
+}
+ @media all and (orientation: portrait) {
+    /* Target device in portrait mode */
+}
